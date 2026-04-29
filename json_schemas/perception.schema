@@ -52,7 +52,11 @@
                     "body_location": {
                         "description": "Object location relative to the vehicle based on the latest estimated pose. The reference frame is the sensor reference frame by default, but can be updated from Slamcore Aware software using Vehicle Tracking Point setting.",
                         "$ref": "#/definitions/Location2D"
-                    }
+                    },
+                    "source_device": {
+                        "type": "string",
+                        "description": "Source device."
+                    },
                 }
             } 
         } 
